@@ -10,14 +10,17 @@ header {
     justify-content: center;
     padding: 10px;
 }
+
 header img {
     width: 20%;
     height: 20%;
     border-radius: 50%;
 }
-main{
-    background-color:#D0D8D9;
+
+main {
+    background-color: #D0D8D9;
 }
+
 h1 {
     background-color: #035c61;
     color: #f0f8ff;
@@ -27,6 +30,7 @@ h1 {
     margin: 0%;
     padding: 1em;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -35,20 +39,23 @@ nav {
     margin-right: 16%;
     list-style: none;
 }
-nav a{
+
+nav a {
     color: white;
-    background-color:#035c61;
+    background-color: #035c61;
     padding: 0.2em;
     margin: 1em;
     font-size: 20px;
     border-radius: 5px;
     text-decoration: none;
 }
+
 nav i {
     color: white;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
+
 .datos {
     display: flex;
     flex-direction: column;
@@ -89,4 +96,15 @@ footer i {
     margin-right: 0.5em;
     margin-top: 1em;
     color: white;
+}
+
+@media screen and (max-width: 635px) {
+    .datos {
+        padding: 2% 3% 2% 3%;
+    }
+
+    nav {
+        margin-left:0%;
+        margin-right:0%; 
+    }
 }
