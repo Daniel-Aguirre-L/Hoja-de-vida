@@ -2,7 +2,6 @@ body {
     margin: 0%;
     font-family: 'Kanit', sans-serif;
 }
-
 header {
     background-image: url("../imagenes/fondo.jpg");
     background-size: cover;
@@ -15,65 +14,41 @@ header img {
     height: 20%;
     border-radius: 50%;
 }
-main{
-    background-color:#D0D8D9;
-}
-h1 {
+nav {
+    display: flex;
     background-color: #035c61;
     color: #f0f8ff;
     font-size: 35px;
     text-align: center;
     letter-spacing: 5px;
-    margin: 0%;
-    padding: 1em;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 16%;
-    margin-right: 16%;
-    list-style: none;
 }
 nav a{
     color: white;
-    background-color:#035c61;
-    padding: 0.2em;
-    margin: 1em;
-    font-size: 20px;
-    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 13%;
+    margin-top: 1.6em;
+    letter-spacing: normal;
     text-decoration: none;
 }
-nav i {
-    color: white;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+nav i{
+    font-size: 30px;
+    margin-right: 0.4em;
 }
-.datos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2% 30% 2% 30%;
+main{
+    background-color:#D0D8D9;
+    padding: 5%;
+    text-align: justify;
     line-height: 1.5em;
 }
-
 h2 {
     background-color: #035c61;
-    color: #f0f8ff;
-    font-size: 20px;
-    letter-spacing: 5px;
-    text-align: center;
+    color: white;
     border-radius: 5px;
+    text-align: center;
 }
-
-li span {
+dt { 
     font-weight: bold;
 }
-
-dt {
-    font-weight: bold;
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -82,7 +57,6 @@ footer {
     font-size: 20px;
     line-height: 2.5;
 }
-
 footer i {
     font-size: 1.5em;
     margin-left: 0.5em;
